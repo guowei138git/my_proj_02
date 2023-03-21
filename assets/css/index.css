@@ -1,0 +1,57 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* 设置字体图片外右边距 8px  */
+.iconfont {
+    margin-right: 8px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.layui-body {
+    /* 超出部分 隐藏 */
+    overflow: hidden;
+}
+a {
+    /* 强制清除a链接的C3动画 */
+    transition: none !important;
+}
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+.layui-side-scroll .userinfo {
+    /* 给头像增加底部边框 */
+    border-bottom: 1px solid #282b33;
+}
+
+/* 设置头像的宽高 */
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* 设置文字头像的样式 */
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    /* 呈圆形 */
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+
+    /* 相对定位 */
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}

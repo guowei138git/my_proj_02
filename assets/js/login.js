@@ -65,11 +65,13 @@ $(function () {
                 if (res.status !== 0) {
                     return layer.msg('登录失败！')
                 }
+                console.log('login success')
                 layer.msg('登录成功！')
                 // 将登录成功得到的 token 字符串，保存到 localStorage 中
                 localStorage.setItem('token', res.token)
                 // 跳转到后台主页
-                location.href = '/index.html'
+                console.log('href index page')
+                location.href = './index.html'
             }
         })
     })
